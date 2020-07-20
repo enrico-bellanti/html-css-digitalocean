@@ -5,3 +5,20 @@
   border: 1px solid black;
   background-color: lightcoral;
 }
+
+
+/* functions */
+
+.text_centr{
+  text-align: center;
+}
+
+.text_right{
+  text-align: right;
+}
+
+/* general */
+
+.title_h2{
+
+}
