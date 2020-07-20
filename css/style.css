@@ -24,6 +24,10 @@
   color: #006aff;
 }
 
+.t_color_white{
+  color: #fff;
+}
+
 .gradient_blue{
   background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,30,154,1) 100%);
 }
@@ -40,6 +44,18 @@
 
 .btn_bord{
   border: 1px solid #006aff;
+}
+
+.p_top_40{
+  padding-top: 40px;
+}
+
+.p_bottop_40{
+  padding-bottom: 40px;
+}
+
+.position_relative{
+  position: relative;
 }
 
 /* general */
@@ -87,6 +103,19 @@ nav ul li a:hover{
 /* Jumbotron */
 
 .jumbo{
+  position: relative;
   height: 400px;
   margin-top: 80px;
+}
+
+.text_wrapper{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+form{
+  background-color: #fff;
+  border-radius: 5px;
 }
