@@ -28,6 +28,11 @@
   color: #fff;
 }
 
+.t_up{
+  text-transform: uppercase;
+}
+
+
 .gradient_blue{
   background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,30,154,1) 100%);
 }
@@ -54,6 +59,13 @@
   padding-bottom: 40px;
 }
 
+.m_top_30{
+  margin-top: 30px;
+}
+.m_bottom_30{
+  margin-bottom: 30px;
+}
+
 .position_relative{
   position: relative;
 }
@@ -67,6 +79,23 @@ body{
 .title_h2{
 
 }
+
+p{
+  color: #717c98;
+}
+
+
+.link_angle{
+  color: #006aff;
+  text-decoration: none;
+}
+
+.link_angle:hover{
+  color: #1633ff;
+  text-decoration: none;
+}
+
+
 
 /* header TOP */
 
@@ -103,19 +132,31 @@ nav ul li a:hover{
 /* Jumbotron */
 
 .jumbo{
-  position: relative;
   height: 400px;
   margin-top: 80px;
 }
 
-.text_wrapper{
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
 
 form{
   background-color: #fff;
   border-radius: 5px;
+}
+
+/* sezione partners */
+
+.list_partners li{
+  width: 48%;
+}
+
+@media screen and (min-width:768px){
+  .list_partners li{
+    width: 15%;
+  }
+
+}
+
+.list_partners li img{
+  max-width: 100%;
+  max-height: 77px;
+  vertical-align: middle;
 }
