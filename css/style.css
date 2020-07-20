@@ -33,8 +33,12 @@
 }
 
 
-.gradient_blue{
+.bg_gradient_blue{
   background: linear-gradient(180deg, rgba(0,71,197,1) 0%, rgba(0,30,154,1) 100%);
+}
+
+.bg_grey{
+  background-color: #f3f5f9;
 }
 
 .btn{
