@@ -99,7 +99,6 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
 }
 
 .wrapper{
@@ -233,13 +232,15 @@ form{
 
 #developers img{
   max-width: 600px;
+  min-width: 300px;
   width: 100%;
 }
 
 #developers .img_wrapper{
   display: inline-block;
   vertical-align: middle;
-  width: calc(100% - 120px);
+  width: calc(100% - 150px);
+  text-align: center;
 }
 
 #developers .angle{
