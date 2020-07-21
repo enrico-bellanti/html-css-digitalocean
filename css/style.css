@@ -100,7 +100,8 @@ body{
 }
 
 .title_h2{
-  color:
+  color: #031c4e;
+  margin-bottom: 30px;
 }
 
 p{
@@ -193,7 +194,7 @@ form{
   border-left: 2px solid #e5e8ed;
 }
 
-.box_features{
+#features .box_features{
   float: left;
   width: 45%;
   margin-right: 20px;
