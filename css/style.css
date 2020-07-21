@@ -233,11 +233,13 @@ form{
 
 #developers img{
   max-width: 600px;
+  width: 100%;
 }
 
 #developers .img_wrapper{
   display: inline-block;
   vertical-align: middle;
+  width: calc(100% - 120px);
 }
 
 #developers .angle{
