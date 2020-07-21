@@ -100,6 +100,7 @@ body{
 }
 
 .title_h2{
+  text-align: center;
   color: #031c4e;
   margin-bottom: 30px;
 }
@@ -241,4 +242,44 @@ form{
 #developers .point_white{
   border: 1px solid #006aff;
   background-color: #fff;
+}
+
+/* sezione global */
+
+#global h2{
+  color: #fff;
+}
+
+#global .list_country_item{
+  border-bottom: 1px solid #e5e8ed;
+  padding: 10px 0;
+}
+
+#global ul li:last-child .list_country_item{
+  border-bottom: 0;
+}
+
+#global .list_country_item div{
+  display: inline-block;
+}
+
+#global .coutry_code{
+  width: 20%;
+  margin-left: 20px;
+  color: #fff;
+}
+
+#global .country{
+  width: 53%;
+  color: #bbc8ea;
+}
+
+#global .test_speed{
+ width: 20%;
+ text-align: right;
+}
+
+
+#global .test_speed a{
+  color: #00d7d2;
 }
