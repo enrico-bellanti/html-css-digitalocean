@@ -83,6 +83,10 @@
   position: relative;
 }
 
+.vert_alng_midd{
+  vertical-align: middle;
+}
+
 /* general */
 
 body{
@@ -204,4 +208,27 @@ form{
     width: 100%;
   }
 
+}
+
+/* sezione developers */
+
+#developers img{
+  max-width: 550px;
+}
+
+#developers .angle-left, #developers .angle-right{
+
+}
+#developers .angle-left{
+ text-align: right;
+}
+#developers .angle-right{
+ text-align: left;
+}
+
+#developers .fa-angle-left, #developers .fa-angle-right{
+  font-size: 4rem;
+  color: #031c4e;
+  /* vertical-align: middle;
+  display: inline-block; */
 }
