@@ -218,6 +218,10 @@ form .btn_google img{
   margin-right: 5px;
 }
 
+form p{
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width:992px){
   form{
     margin: 0 50px;
@@ -233,7 +237,7 @@ form .btn_google img{
   width: 15%;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
 
   .list_partners li{
     width: 45%;
@@ -250,22 +254,23 @@ form .btn_google img{
 
 /* sezione features */
 
+#features .text_wrapper{
+  text-align: center;
+}
+
 #features li{
   padding: 10px;
   border-left: 2px solid #e5e8ed;
 }
 
-#features .text_wrapper{
-  text-align: center;
-}
-
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
 
   #features li{
     font-size: 1.8rem;
   }
 
 }
+
 
 #features a{
   color: #717c98;
@@ -280,7 +285,7 @@ form .btn_google img{
   margin-bottom: 20px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
 
   #features .box_features{
     width: 100%;
@@ -307,6 +312,14 @@ form .btn_google img{
   text-align: center;
 }
 
+@media screen and (max-width:767px){
+  #developers .img_wrapper{
+    width: 100%;
+  }
+
+}
+
+
 #developers .angle{
   font-size: 4rem;
   color: #031c4e;
@@ -330,6 +343,15 @@ form .btn_google img{
   margin-top: 20px;
   font-size: 1.4rem;
   color: #031c4e;
+}
+
+/* sezione business */
+
+
+@media screen and (max-width:767px){
+#business .box_features{
+  margin-bottom: 40px;
+}
 }
 
 /* sezione global */
@@ -396,6 +418,15 @@ form .btn_google img{
   text-align: center;
   padding: 70px 0;
 }
+
+@media screen and (max-width:767px){
+  #sponsors .img_wrapper{
+    width: 100%;
+  }
+
+}
+
+
 
 #sponsors .angle{
   font-size: 4rem;
