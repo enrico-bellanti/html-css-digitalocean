@@ -112,12 +112,14 @@ h1{
 }
 
 .title_h2{
+  font-size: 3.5rem;
   text-align: center;
   color: #031c4e;
   margin-bottom: 30px;
 }
 
 p{
+  font-size: 2rem;
   color: #717c98;
 }
 
@@ -251,6 +253,10 @@ form .btn_google img{
 #features li{
   padding: 10px;
   border-left: 2px solid #e5e8ed;
+}
+
+#features .text_wrapper{
+  text-align: center;
 }
 
 @media screen and (max-width:768px){
