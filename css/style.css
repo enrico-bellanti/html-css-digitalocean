@@ -217,7 +217,9 @@ form{
 }
 
 #developers .angle-left, #developers .angle-right{
-
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 #developers .angle-left{
  text-align: right;
@@ -227,8 +229,9 @@ form{
 }
 
 #developers .fa-angle-left, #developers .fa-angle-right{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 4rem;
   color: #031c4e;
-  /* vertical-align: middle;
-  display: inline-block; */
 }
