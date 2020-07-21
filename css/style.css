@@ -120,6 +120,8 @@ p{
 
 
 
+
+
 /* header TOP */
 
 .header_top{
@@ -213,16 +215,29 @@ form{
 /* sezione developers */
 
 #developers img{
-  max-width: 500px;
+  max-width: 600px;
 }
 
 #developers .img_wrapper{
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 #developers .angle{
   font-size: 4rem;
   color: #031c4e;
   padding: 20px;
+}
+
+#developers .point{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #006aff;
+}
+
+#developers .point_white{
+  border: 1px solid #006aff;
+  background-color: #fff;
 }
