@@ -168,8 +168,11 @@ nav ul li a:hover{
 /* Jumbotron */
 
 .jumbo{
-  height: 400px;
   margin-top: 80px;
+}
+
+.jumbo .text_wrapper{
+  padding: 50px;
 }
 
 .jumbo .text_wrapper p{
@@ -186,7 +189,7 @@ form{
 /* sezione partners */
 
 .list_partners li{
-  width: 48%;
+  width: 15%;
 }
 
 
