@@ -107,6 +107,10 @@ body{
   margin: auto;
 }
 
+h1{
+  font-size: 4rem;
+}
+
 .title_h2{
   text-align: center;
   color: #031c4e;
@@ -178,10 +182,40 @@ nav ul li a:hover{
 }
 
 
+/* form */
+
 form{
   background-color: #fff;
   border-radius: 5px;
+  padding: 20px;
+  text-align: center;
 }
+
+form a{
+  width: 100%;
+  color: #006aff;
+}
+form a:hover{
+  color: #1633ff;
+}
+
+form .btn_google{
+  margin: 20px 0;
+}
+
+form .btn_google img{
+  width: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width:992px){
+  form{
+    margin: 0 50px;
+  }
+
+}
+
+
 
 /* sezione partners */
 
