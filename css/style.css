@@ -346,7 +346,7 @@ form{
   width: calc(100% - 150px);
   background-color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 #sponsors .angle{
@@ -362,6 +362,11 @@ form{
 #sponsors .img_wrapper p{
   color: #031c4e;
   margin-bottom: 0;
+}
+
+#sponsors .img_wrapper .link_angle{
+  display: inline-block;
+  margin-top: 30px;
 }
 
 
