@@ -213,25 +213,16 @@ form{
 /* sezione developers */
 
 #developers img{
-  max-width: 550px;
+  max-width: 500px;
 }
 
-#developers .angle-left, #developers .angle-right{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-#developers .angle-left{
- text-align: right;
-}
-#developers .angle-right{
- text-align: left;
+#developers .img_wrapper{
+  display: inline-block;
+  vertical-align: middle
 }
 
-#developers .fa-angle-left, #developers .fa-angle-right{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+#developers .angle{
   font-size: 4rem;
   color: #031c4e;
+  padding: 20px;
 }
