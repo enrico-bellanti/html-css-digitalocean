@@ -74,6 +74,10 @@
   margin-bottom: 30px;
 }
 
+.m_bottom_20{
+  margin-bottom: 20px;
+}
+
 
 .position_relative{
   position: relative;
@@ -86,8 +90,8 @@ body{
 }
 
 .wrapper{
-  max-width: 800px;
-  width: 70%;
+  max-width: 900px;
+  width: 80%;
   margin: auto;
 }
 
@@ -163,12 +167,12 @@ form{
   width: 48%;
 }
 
-@media screen and (min-width:768px){
+/* @media screen and (min-width:768px){
   .list_partners li{
     width: 15%;
   }
 
-}
+} */
 
 .list_partners li img{
   max-width: 100%;
@@ -188,4 +192,16 @@ form{
   width: 45%;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+  .box_features{
+    width: 100%;
+
+  }
+
+  .wrapper{
+    width: 100%;
+  }
+
 }
