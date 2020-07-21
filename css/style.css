@@ -213,7 +213,7 @@ form .btn_google{
 
 form .btn_google img{
   width: 20px;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 @media screen and (min-width:992px){
