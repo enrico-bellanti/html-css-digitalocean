@@ -99,6 +99,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .wrapper{
@@ -150,6 +151,7 @@ p{
 }
 
 nav ul li a{
+  font-size: 1.5rem;
   color: #031c4e;
 }
 
@@ -171,6 +173,11 @@ nav ul li a:hover{
   margin-top: 80px;
 }
 
+.jumbo .text_wrapper p{
+  color: #b8caff;
+  font-size: 1.8rem;
+}
+
 
 form{
   background-color: #fff;
@@ -183,12 +190,6 @@ form{
   width: 48%;
 }
 
-/* @media screen and (min-width:768px){
-  .list_partners li{
-    width: 15%;
-  }
-
-} */
 
 .list_partners li img{
   max-width: 100%;
@@ -203,6 +204,12 @@ form{
   border-left: 2px solid #e5e8ed;
 }
 
+#features a{
+  color: #717c98;
+  text-decoration: none;
+}
+
+
 #features .box_features{
   float: left;
   width: 45%;
@@ -211,7 +218,7 @@ form{
 }
 
 @media screen and (max-width:768px){
-  .box_features{
+  #features .box_features{
     width: 100%;
 
   }
@@ -250,6 +257,12 @@ form{
 #developers .point_white{
   border: 1px solid #006aff;
   background-color: #fff;
+}
+
+#developers .carosel_bottom_info p{
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #031c4e;
 }
 
 /* sezione global */
@@ -291,6 +304,49 @@ form{
 #global .test_speed a{
   color: #00d7d2;
 }
+
+#global .test_speed a:hover{
+  color: #006aff;
+}
+
+/* sezione sponsors */
+
+#sponsors h2{
+  margin-bottom: 80px;
+}
+
+#sponsors img{
+  max-width: 600px;
+}
+
+#sponsors .img_wrapper{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#sponsors .angle{
+  font-size: 4rem;
+  color: #031c4e;
+  padding: 20px;
+}
+
+#sponsors .points_wrapper{
+  margin-top: 20px;
+}
+
+#sponsors .point{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #006aff;
+}
+
+#sponsors .point_white{
+  border: 1px solid #006aff;
+  background-color: #fff;
+}
+
 
 /* sezione get_started */
 
