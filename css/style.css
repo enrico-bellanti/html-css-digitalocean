@@ -316,7 +316,6 @@ form p{
 
 #developers img{
   max-width: 600px;
-  min-width: 300px;
   width: 100%;
 }
 
@@ -555,6 +554,7 @@ footer nav ul li a:hover{
 #bot_shark .chat{
   position: relative;
   display: inline-block;
+  right: 90px;
   width: 250px;
   height: 50px;
   padding: 10px 15px;
@@ -570,18 +570,39 @@ footer nav ul li a:hover{
 #bot_shark .shark_wrapper{
   position: relative;
   display: inline-block;
+  left: 250px;
   width: 50px;
   height: 50px;
   margin: 0 20px;
   background-color: blue;
-  /* overflow: hidden; */
   vertical-align: middle;
+}
+
+@media screen and (max-width:992px){
+
+  #bot_shark{
+    left: 0;
+    right: auto;
+  }
+
+  #bot_shark .chat{
+    left: 10px;
+  }
+
+  #bot_shark .shark_wrapper{
+    display: block;
+    left: 10px;
+    margin: 0;
+    bottom: 10px;
+
+  }
 
 }
 
 #bot_shark .shark_wrapper img{
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .angle_chat{
@@ -597,8 +618,8 @@ footer nav ul li a:hover{
 
 .numb_shark{
   position: absolute;
-  top: -15px;
-  right: -15px;
+  top: -12px;
+  right: -12px;
   width: 30px;
   height: 30px;
   color: #fff;
