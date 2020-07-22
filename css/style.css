@@ -545,27 +545,38 @@ footer nav ul li a:hover{
   right: 0;
   bottom: 0;
   z-index: 1;
-  width: 400px;
-  height: 120px;
+  width: 350px;
+  height: 80px;
   background-color: lightgreen;
+}
+
+#bot_shark .chat, #bot_shark .shark_wrapper{
+  border-radius: 5px;
 }
 
 #bot_shark .chat{
   display: inline-block;
   width: 250px;
-  height: 100px;;
+  height: 50px;
+  padding: 5px 10px;
   background-color: #fff;
+}
+
+#bot_shark .chat p{
+  font-size: 1.2rem;
+  color: #000;
 }
 
 #bot_shark .shark_wrapper{
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   margin-left: 20px;
   background-color: blue;
+  overflow: hidden;
 }
 
-/* #bot_shark .shark_wrapper img{
+#bot_shark .shark_wrapper img{
   width: 100%;
   height: auto;
-} */
+}
