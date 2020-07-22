@@ -458,6 +458,7 @@ form p{
   margin-top: 30px;
 }
 #sponsors .img_wrapper p{
+  font-size: 1.3rem;
   color: #031c4e;
   margin-bottom: 0;
 }
@@ -515,6 +516,13 @@ footer .logo_wrapper ~ ul{
 
 .social_list i:hover{
   color: #fff;
+}
+
+@media screen and (max-width:767px){
+  footer .logo_wrapper ~ p{
+    font-size: 1.5rem;
+  }
+
 }
 
 /* footer nav */
