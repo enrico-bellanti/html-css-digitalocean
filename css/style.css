@@ -537,3 +537,35 @@ footer nav ul li a{
 footer nav ul li a:hover{
   color: #fff;
 }
+
+/* bot shark footer */
+
+#bot_shark{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 400px;
+  height: 120px;
+  background-color: lightgreen;
+}
+
+#bot_shark .chat{
+  display: inline-block;
+  width: 250px;
+  height: 80px;;
+  background-color: #fff;
+}
+
+#bot_shark .shark_wrapper{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  background-color: blue;
+}
+
+/* #bot_shark .shark_wrapper img{
+  width: 100%;
+  height: auto;
+} */
