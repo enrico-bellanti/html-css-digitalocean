@@ -222,6 +222,13 @@ form p{
   font-size: 1.5rem;
 }
 
+@media screen and (min-width:767px){
+  form{
+    margin-top: 50px;
+  }
+
+}
+
 @media screen and (min-width:992px){
   form{
     margin: 0 50px;
@@ -231,7 +238,7 @@ form p{
 
 
 
-/* sezione partners */
+/* sezione logo grid */
 
 .list_partners li{
   width: 15%;
@@ -252,6 +259,10 @@ form p{
   vertical-align: middle;
 }
 
+#logo_grid p{
+  font-size: 1.5rem
+}
+
 /* sezione features */
 
 #features .text_wrapper{
@@ -266,7 +277,7 @@ form p{
 @media screen and (max-width:767px){
 
   #features li{
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
 }
@@ -283,6 +294,10 @@ form p{
   width: 45%;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+#features .box_features p{
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width:767px){
@@ -346,6 +361,10 @@ form p{
 }
 
 /* sezione business */
+
+#business .box_features p{
+  font-size: 1.5rem;
+}
 
 
 @media screen and (max-width:767px){
